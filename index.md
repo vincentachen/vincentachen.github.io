@@ -14,7 +14,6 @@ title: "Home"
             <a href="mailto:vinnychen@berkeley.edu" class="link">Email Me</a>
         </div>
     </div>
-
     <div class="right-column">
         <h1>Welcome!</h1>
         <p>Hello! I'm Vincent Alexander Chen, a recent graduate from UC Berkeley with a background in integrated biology and economics. Welcome to my personal website!</p>
