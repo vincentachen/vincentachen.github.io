@@ -24,6 +24,8 @@ header {
     flex: 1;
     display: flex;
     justify-content: flex-start; /* Align image to the left within the column */
+    flex-direction: column; /*Make items fall down*/
+    align-items: center; 
     padding-right: 50px; /* Space between image and text */
 }
 
