@@ -56,7 +56,7 @@ header {
     text-decoration: underline;
 }
 .right-column {
-    flex: 3; /* Adjust this value to control the width of the right column */
+    flex: 2; /* Adjust this value to control the width of the right column */
     padding-left: 50px; /* Space between image and text */
 }
 
