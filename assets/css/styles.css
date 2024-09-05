@@ -12,9 +12,6 @@ header {
     text-align: center;
 }
 
-.notbold{
-    font-weight:normal
-}
 ​
 .container {
     display: flex;
