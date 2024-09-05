@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Home"
+title: "Vincent A. Chen"
 ---
 
 <div class="container">
