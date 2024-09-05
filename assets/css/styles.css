@@ -31,7 +31,7 @@ header {
      width: 600px; /* Adjust size as needed */
     height: 450px; /* Adjust size as needed */
     object-fit: cover; /* Ensures the image covers the container without distortion */
-    margin-left: 0; /* Adjust this if you need more space on the left */
+    margin-left: 50; /* Adjust this if you need more space on the left */
 }
 
 
