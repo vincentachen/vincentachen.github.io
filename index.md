@@ -7,7 +7,6 @@ title: "Home"
     <div class="left-column">
         <!-- Profile Image -->
         <img src="/assets/images/profile.jpeg" alt="Vincent Alexander Chen" class="profile-img">
-        
         <!-- Links Section -->
         <div class="links">
             <a href="https://www.linkedin.com/in/vincentchenberkeley" target="_blank" class="link">LinkedIn</a>
