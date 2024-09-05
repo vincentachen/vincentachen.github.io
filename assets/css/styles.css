@@ -11,6 +11,14 @@ header {
     padding: 15px;
     text-align: center;
 }
+.profile-img {
+    border-radius: 50%; /* Makes the image round */
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
 
 nav ul {
     list-style-type: none;
