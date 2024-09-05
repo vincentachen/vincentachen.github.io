@@ -6,7 +6,7 @@ title: "Home"
 <div class="container">
     <div class="left-column">
         <!-- Use hardcoded URL as a test -->
-        <img src="/assets/images/profile.jpg" alt="Vincent Alexander Chen" class="profile-img">
+        <img src="/assets/images/profile.jpeg" alt="Vincent Alexander Chen" class="profile-img">
     </div>
 
     <div class="right-column">
