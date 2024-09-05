@@ -20,13 +20,20 @@ header {
     margin: 0 auto;
     padding: 20px;
 }
-
+.image-column {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) of the column */
+    padding: 0; /* Remove any padding if present */
+}
 
 .profile-img {
      width: 600px; /* Adjust size as needed */
     height: 450px; /* Adjust size as needed */
     object-fit: cover; /* Ensures the image covers the container without distortion */
+    margin-left: 0; /* Adjust this if you need more space on the left */
 }
+
 
 
 nav ul {
