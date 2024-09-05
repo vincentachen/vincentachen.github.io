@@ -41,6 +41,8 @@ header {
 .links {
     margin-top: 20px;
     text-align: center; /* Center the links */
+    display: flex; /* Make links display in a row */
+    gap: 20px;
 }
 
 .link {
