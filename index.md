@@ -7,6 +7,7 @@ title: "Home"
     <div class="left-column">
         <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vincent Alexander Chen" class="profile-img">
 
+
     </div>
     <div class="right-column">
         <h1>Welcome!</h1>
