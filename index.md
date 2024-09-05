@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vincent A. Chen"
+title: "Vincent Chen"
 ---
 
 <div class="container">
