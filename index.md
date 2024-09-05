@@ -5,11 +5,10 @@ title: "Home"
 
 <div class="container">
     <div class="left-column">
-        <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Vincent Alexander Chen" class="profile-img">
-
-
-
+        <!-- Use hardcoded URL as a test -->
+        <img src="/assets/images/profile.jpg" alt="Vincent Alexander Chen" class="profile-img">
     </div>
+
     <div class="right-column">
         <h1>Welcome!</h1>
         <p>Hello! I'm Vincent Alexander Chen, a recent graduate from UC Berkeley with a background in integrated biology and economics. Welcome to my personal website!</p>
