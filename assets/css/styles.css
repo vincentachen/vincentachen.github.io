@@ -1,13 +1,13 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffffff; /* Fixed syntax error */
-    color: #1E90FF;
+    background-color: #163E93; /* Fixed syntax error */
+    color: #FFFFFF;
     padding: 15px;
     text-align: center;
 }
