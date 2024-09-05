@@ -7,6 +7,12 @@ title: "Home"
     <div class="left-column">
         <!-- Use hardcoded URL as a test -->
         <img src="/assets/images/profile.jpeg" alt="Vincent Alexander Chen" class="profile-img">
+                <!-- New Links Section -->
+        <div class="links">
+            <a href="https://www.linkedin.com/in/vincentchenberkeley" target="_blank" class="link">LinkedIn</a>
+            <a href="mailto:vinnychen@berkeley.edu" class="link">Email Me</a>
+        </div>
+    </div>
     </div>
 
     <div class="right-column">
