@@ -32,9 +32,25 @@ header {
      width: 600px; /* Adjust size as needed */
     height: 450px; /* Adjust size as needed */
     object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 8px;
 }
 
 
+.links {
+    margin-top: 20px;
+    text-align: center; /* Center the links */
+}
+
+.link {
+    display: block;
+    color: #163E93; /* Link color, adjust as needed */
+    text-decoration: none;
+    margin: 5px 0; /* Space between links */
+}
+
+.link:hover {
+    text-decoration: underline;
+}
 .right-column {
     flex: 2; /* Adjust this value to control the width of the right column */
     padding-left: 50px; /* Space between image and text */
