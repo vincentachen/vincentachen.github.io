@@ -13,7 +13,6 @@ title: "Home"
     </div>
 </div>
 This website showcases my projects, experience, and my journey into healthcare consulting and finance.
-![Vincent Alexander Chen](/assets/images/headshot.jpg)
 
 ## About Me
 I am passionate about healthcare technology, health economics, and financial analysis. My goal is to apply my skills in data analysis and project management to help companies optimize their healthcare solutions.
