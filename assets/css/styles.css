@@ -22,7 +22,7 @@ header {
     padding: 20px;
 }
 .left-column {
-    flex: 1;
+    flex: 1 !important;
     display: flex;
     flex-direction: column; /*Make items fall down*/
     align-items: center; 
