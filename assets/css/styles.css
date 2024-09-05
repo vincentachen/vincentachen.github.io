@@ -37,7 +37,7 @@ header {
 
 .right-column {
     flex: 2; /* Adjust this value to control the width of the right column */
-    padding-left: 200px; /* Space between image and text */
+    padding-left: 20px; /* Space between image and text */
 }
 
 nav ul {
