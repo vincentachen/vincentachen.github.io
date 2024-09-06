@@ -1,1 +1,65 @@
 
+---
+layout: default
+title: Projects
+---
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Projects</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-filter="all">All</a>
+      </li>
+      {% assign categories = site.projects | map: 'category' | uniq %}
+      {% for category in categories %}
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-filter="{{ category }}">{{ category | capitalize }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+<div class="container my-4">
+  <div class="row">
+    {% for project in site.projects %}
+    <div class="col-md-4 project-card" data-category="{{ project.category }}">
+      <div class="card">
+        <img class="card-img-top" src="{{ project.image }}" alt="{{ project.title }}">
+        <div class="card-body">
+          <h5 class="card-title">{{ project.title }}</h5>
+          <p class="card-text">{{ project.description }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.nav-link').forEach(link => {
+    link.addEventListener('click', function(event) {
+      event.preventDefault();
+      
+      const filter = this.getAttribute('data-filter');
+      
+      if (filter === 'all') {
+        document.querySelectorAll('.project-card').forEach(card => {
+          card.style.display = 'block';
+        });
+      } else {
+        document.querySelectorAll('.project-card').forEach(card => {
+          if (card.getAttribute('data-category') === filter) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+    });
+  });
+</script>
