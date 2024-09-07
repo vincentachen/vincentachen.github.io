@@ -18,32 +18,7 @@ header h1 {
     font-size: 30px; /* Adjust size as needed */
 }
 
-.banner {
-    background-image: url('{{ '/assets/images/banner-image.jpg' | relative_url }}');
-    background-size: cover; /* Adjust to cover the banner area */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating */
-    height: 400px; /* Adjust height as needed */
-    color: #fff; /* Text color */
-    display: flex;
-    align-items: center; /* Vertically center content */
-    justify-content: center; /* Horizontally center content */
-    text-align: center; /* Center text */
-    padding: 20px; /* Optional padding */
-}
 
-.banner-content h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3rem; /* Adjust font size */
-    margin-bottom: 10px;
-}
-
-.banner-content p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem; /* Adjust font size */
-    color: #fff; /* White text color for contrast */
-}
-​
 .container {
     display: flex;
     justify-content: space-between;
