@@ -20,12 +20,16 @@ header h1 {
 
 .banner {
     background-image: url('{{ '/assets/images/banner-image.jpg' | relative_url }}');
-    background-size: cover; /* Ensures the image covers the entire section */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    padding: 60px 20px; /* Adjust padding as needed */
-    text-align: center; /* Center-align text */
-    color: #fff; /* White text color for contrast */
+    background-size: cover; /* Adjust to cover the banner area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 400px; /* Adjust height as needed */
+    color: #fff; /* Text color */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    text-align: center; /* Center text */
+    padding: 20px; /* Optional padding */
 }
 
 .banner-content h2 {
