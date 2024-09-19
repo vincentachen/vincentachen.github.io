@@ -1,0 +1,97 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFFFFF;
+    color: #051C2A;
+    padding: 15px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 300; /* Thinner font weight, adjust as needed */
+    font-family: 'Montserrat', sans-serif; /* Use the Montserrat font family */
+    font-size: 30px; /* Adjust size as needed */
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top of the container */
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+.left-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column; /*Make items fall down*/
+    align-items: center; 
+    padding-right: 50px; /* Space between image and text */
+}
+
+
+.profile-img {
+     width: 600px; /* Adjust size as needed */
+    height: 450px; /* Adjust size as needed */
+    object-fit: cover; /* Ensures the image covers the container without distortion */
+    border-radius: 8px;
+}
+
+
+.links {
+    margin-top: 20px;
+    text-align: center; /* Center the links */
+    display: flex; /* Make links display in a row */
+    gap: 20px;
+}
+
+.link {
+    display: block;
+    color: #163E93; /* Link color, adjust as needed */
+    text-decoration: none;
+    margin: 5px 0; /* Space between links */
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.right-column {
+    flex: 2; /* Adjust this value to control the width of the right column */
+    padding-left: 50px; /* Space between image and text */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #051C2A;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #060200;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
