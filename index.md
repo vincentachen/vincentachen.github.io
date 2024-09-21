@@ -15,7 +15,7 @@ title: "Vincent Chen"
     </div>
     
     <div class="right-column">
-        <h1>Welcome! I need this live editing to wokrk...</h1>
+        <h1>Welcome! SOmehow live updates are still not working!</h1>
         <p>Hello! I'm Vincent Alexander Chen, a recent graduate from UC Berkeley with a background in integrated biology and economics. Welcome to my personal website!</p>
         <p>This website showcases my projects, experience, and my journey into healthcare consulting and finance.  THis is a test to see if the live preview works</p>
         

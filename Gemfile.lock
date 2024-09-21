@@ -274,6 +274,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-sitemap
   jemoji
+  listen (~> 3.3)
   webrick (~> 1.8)
 
 BUNDLED WITH
