@@ -1,0 +1,29 @@
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  <main>
+    <img src="{{ page.image }}" alt="{{ page.title }}">
+    <p>{{ page.summary }}</p>
+    
+    <h3>Capabilities:</h3>
+    <ul>
+      {% for capability in page.capabilities %}
+        <li>{{ capability }}</li>
+      {% endfor %}
+    </ul>
+  </main>
+
+  <footer>
+    <a href="/projects">Back to Projects</a>
+  </footer>
+</body>
+</html>

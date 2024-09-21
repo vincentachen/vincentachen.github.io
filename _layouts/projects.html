@@ -4,6 +4,23 @@ layout: default
 title: Projects
 ---
 
+
+<section class="projects-list">
+  <h2>Selected Projects</h2>
+  <div class="grid three">
+    {% for project in site.projects %}
+      <div class="project-item">
+        <a href="{{ project.url }}">
+          <img src="{{ project.image }}" alt="{{ project.title }}">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#">Projects</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,3 +80,4 @@ title: Projects
     });
   });
 </script>
+-->

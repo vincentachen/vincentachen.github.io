@@ -1,0 +1,6 @@
+title: "Vincent Alexander Chen"
+description: "Showcasing projects, blog posts, and more"
+
+collections:
+  projects:
+    output: true
