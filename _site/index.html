@@ -28,19 +28,21 @@
 
 <body>
     <div class="page-wrapper">
-        <div class="background"></div> <!-- Blue background -->
+        <div class="gradients"> <!-- Blue background -->
             <div class="background-wrapper">
                 <div class="gradient-01"></div>
                 <div class="gradient-02"></div>
                 <div class="gradient-03"></div>
-                <div class="gradient-04"></div>                                
+                <div class="gradient-04"></div>              
+                <div class="gradient-05"></div>                          
             </div>
+        </div>
         <div class="main-wrapper">
             <header>
                 <div class="navbar-header">
-                    <div class="navbar">
+                    <div class="mynavbar">
                         <div class="page-padding">
-                            <div class="container">
+                            <div class="headercontainer">
                                 <div class="navbar-inner nav-wrap">
                                     <div class="navbar-top">
                                         <div class="navbar-left">
@@ -52,7 +54,7 @@
                                         </div>
                                         <div class="navbar-right">
                                             <div class="navbar-right-button">
-                                                <a href="mailto:vinnyc725@gmail.com" class="button small w-inline-block"><div class="button-inner"><div class="button-inner-text">Let's Connect!</div></div></a>
+                                                <a href="/contactme" class="button small w-inline-block"><div class="button-inner"><div class="button-inner-text">Let's Connect!</div></div></a>
                                             </div>
                                         </div>
                                     </div>                         
@@ -79,7 +81,7 @@
                         <img src="/assets/images/headshotcircle.png" alt="Vincent Alexander Chen" class="profile-img" />
                     </div>
                     <div class="hero-grid-right">
-                        <h1>Hi, I'm Vincent!</h1>
+                        <h1 class="display-4">Hi, I'm Vincent!</h1>
                         <h2>UC Berkeley Grad</h2>
                         <p>B.A. Integrated Biology and B.A. Economics</p>
                         <div class="social-links">
@@ -136,7 +138,7 @@
         <div class="padding-top padding-medium">
             <div class="bigcontainer">
                 <div class="padding-bottom padding-large">
-                    <div class="margin-bottom margin-large">
+                    <div class="margin-bottom margin-medium">
                         <div class="margin-bottom margin-small">
                             <h6>MY WORK</h6>
                         </div> 
@@ -153,17 +155,46 @@
                         </div> 
                     </div> 
                     <div class="selected-projects-wrapper">
-                        <div class="project-list grid three">
-                            <div class="project-item">
-                                <a href="/projects" class="card-stretch w-inline-block"> </a>
+                        <div class="row g-4">
+                            
+                            
+                            <div class="col-md-4">
+                                <div class="card project-card">
+                                <a href="/projects/healthcare-cdf-function">
+                                    <img class="card-img-top" src="/assets/images/project2.png" alt="Project CDF Fat Tail Distribution of Healthcare Index Returns Image" />
+                                    <div class="card-body">
+                                    <h5 class="card-title">CDF Fat Tail Distribution of Healthcare Index Returns</h5>
+                                    <p class="card-text">I coded a CDF and PDF graph tracking the returns of the JPY Healthcare Index for the past 20 years. It determines if outlier events like crashes are anomalies or fit the fat tail distribution.</p>
+                                    </div>
+                                </a>
+                                </div>
                             </div>
-                            <div class="project-item">
-                                <a href="/projects" class="card-stretch w-inline-block"> </a>
+                            
+                            <div class="col-md-4">
+                                <div class="card project-card">
+                                <a href="/projects/epidemiology">
+                                    <img class="card-img-top" src="/assets/images/project3.png" alt="Project Epidemiology Machine Learning Project Image" />
+                                    <div class="card-body">
+                                    <h5 class="card-title">Epidemiology Machine Learning Project</h5>
+                                    <p class="card-text">This project aims to develop a machine learning model that analyzes epidemiological data to predict the outbreak and spread of infectious diseases. By leveraging various data sources, including demographic information, historical disease incidence rates, and environmental factors, the model identifies patterns and risk factors associated with disease transmission.</p>
+                                    </div>
+                                </a>
+                                </div>
                             </div>
-                            <div class="project-item">
-                                <a href="/projects" class="card-stretch w-inline-block"> </a>
+                            
+                            <div class="col-md-4">
+                                <div class="card project-card">
+                                <a href="/projects/global-companion-diagnostic-guideline-mapping">
+                                    <img class="card-img-top" src="/assets/images/project4.jpg" alt="Project Medication Adherence Challenge Investigation Image" />
+                                    <div class="card-body">
+                                    <h5 class="card-title">Medication Adherence Challenge Investigation</h5>
+                                    <p class="card-text">This project explores innovative strategies for enhancing medication adherence through customer discovery methodologies. By employing qualitative and quantitative research techniques, we gained insights into patient behaviors, challenges, and motivations regarding medication usage.</p>
+                                    </div>
+                                </a>
+                                </div>
                             </div>
-                        </div>
+                            
+                        </div> <!-- End Row -->
                     </div>    
                 </div> 
             </div> 
@@ -183,13 +214,13 @@
                                 <p>&copy; 2024 Vincent Alexander Chen</p>
                             </div>
                             <div class="bottom-social"> 
-                                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="icon-link">
+                                <a href="https://www.linkedin.com/in/vincentchenberkeley" target="_blank" class="icon-link">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
-                                <a href="mailto:your-email@example.com" class="icon-link">
+                                <a href="mailto:vinnychen@berkeley.edu" class="icon-link">
                                     <i class="fas fa-envelope"></i>
                                 </a>
-                                <a href="https://github.com/yourusername" target="_blank" class="icon-link">
+                                <a href="https://github.com/vincentachen" target="_blank" class="icon-link">
                                     <i class="fab fa-github"></i>
                                 </a>
                             </div>
@@ -198,7 +229,6 @@
                 </div>
             </div>
         </body>
-        
 
         </div>
     </div>    

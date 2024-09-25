@@ -4,46 +4,38 @@ title: Projects
 permalink: /projects/
 ---
 
-<div class="container mt-5">
-  <h1 class="text-center mb-4">My Projects</h1>
-  <p class="text-center mb-5">A collection of my work across various fields, including web development, data science, and more.</p>
-
-  <div class="row">
-    <!-- Project 1 -->
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="/assets/images/project1.jpg" alt="Project 1 Image">
-        <div class="card-body">
-          <h5 class="card-title">Project Title 1</h5>
-          <p class="card-text">Description of Project 1. This is where you can highlight the tools and languages used.</p>
-          <a href="https://github.com/yourusername/project1" class="btn btn-primary" target="_blank">View on GitHub</a>
+<section class="hero-section">
+    <div class="page-padding">
+        <div class="padding-top padding-large">
+            <div class="bigcontainer">
+                <div class="hero-grid">
+                </div>
+            </div>
         </div>
-      </div>
     </div>
+</section>
 
-    <!-- Project 2 -->
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="/assets/images/project2.jpg" alt="Project 2 Image">
-        <div class="card-body">
-          <h5 class="card-title">Project Title 2</h5>
-          <p class="card-text">Description of Project 2. This is another great project that shows your skills.</p>
-          <a href="https://github.com/yourusername/project2" class="btn btn-primary" target="_blank">View on GitHub</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="col-md-4">
-      <div class="card">
-        <img class="card-img-top" src="/assets/images/project3.jpg" alt="Project 3 Image">
-        <div class="card-body">
-          <h5 class="card-title">Project Title 3</h5>
-          <p class="card-text">Description of Project 3. This project can focus on a specific technology.</p>
-          <a href="https://github.com/yourusername/project3" class="btn btn-primary" target="_blank">View on GitHub</a>
-        </div>
-      </div>
-    </div>
-
-  </div> <!-- End Row -->
-</div> <!-- End Container -->
+<section class="projects-section">
+  <div class="padding-top padding-large">
+    <div class="container mt-5">
+      <h1 class="text-left mb-4">My Projects</h1>
+      <p class="text-left mb-2">A collection of my work across various fields, including financial modeling, machine learning, and more.</p>
+      <div class="line mb-4"></div>
+      <div class="row g-4">
+        {% for project in site.projects %}
+          <div class="col-md-4">
+            <div class="card project-card">
+              <a href="{{ project.url }}">
+                <img class="card-img-top" src="{{ project.image }}" alt="Project {{ project.title }} Image">
+                <div class="card-body">
+                  <h5 class="card-title">{{ project.title }}</h5>
+                  <p class="card-text">{{ project.summary }}</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        {% endfor %}
+      </div> <!-- End Row -->
+    </div> <!-- End Container -->
+  </div>
+</section>

@@ -1,5 +1,6 @@
-
-
+* {
+    box-sizing: border-box;
+}
 
 .page-wrapper {
     padding-top: 50px; /* Adjust this value to increase/decrease the space */
@@ -23,13 +24,13 @@
     color: #0077b5; /* Change color on hover (example: LinkedIn blue) */
 }
 
-.background {
+.gradients {
     z-index: 0;
     background-color: #327eff;
     justify-content: center;
     align-items: flex-start;
     width: 100%;
-    height: 100%;
+    height: 150vh;
     font-size: 1vw;
     position: fixed;
     inset: 0%;
@@ -52,7 +53,7 @@
     left: 50%; 
     top: -10rem;
     left:20rem;
-    right 0;
+    right: 0;
     transform: translateX(-50%) rotate(29deg);
 }
 .gradient-02{
@@ -63,7 +64,7 @@
     position: absolute;
     left: 100%; 
     top: -5rem;
-    right 0;
+    right: 0rem;
     transform: translateX(-50%) rotate(39deg);
 }
 .gradient-03{
@@ -90,24 +91,42 @@
     left:20rem;
     transform: translateX(-50%) rotate(60deg);
 }
+
+.gradient-05{
+    background-color:#000986;
+    border-radius: 999em 999em 999em 999em;
+    width: 30rem;
+    height:100rem;
+    position: absolute;
+    left: 100%; 
+    top: 60rem;
+    right: 0rem;
+    transform: translateX(-50%) rotate(39deg);
+}
+
 .main-wrapper {
     z-index: 1;
     background-color: #fff;
     border: 5px #000;
     border-radius: 20px;
-    max-width: 1200px;
-    width: 92%; /* Adjust this to "squeeze" the content */
+    max-width: 1600px;
+    min-width: 800px; 
+    width: 90%; /* Adjust this to "squeeze" the content */
     margin-left: auto;
     margin-right: auto;
     position: relative;
     box-shadow: 0 0 50px #0000001a;
+    padding: 10px; /* Add padding as needed */
+    margin-top: 0.8rem; /* Adjust this value as needed */
+    margin-bottom: 2rem; 
+
 }
 
 .navbar-wrapper {
     z-index: 9999;
 }
 
-.navbar {
+.mynavbar {
     z-index: 10;
     position: relative;
 }
@@ -153,6 +172,7 @@
 .navbar-top {
     justify-content: space-between;
     display: flex;
+    align-items: center;
 }
 
 .navbar-left {
@@ -166,7 +186,8 @@
     z-index: 99999;
     justify-content: flex-end;
     position: relative;
-    margin-left: auto; 
+    right: 0;
+    
 }
 
 .navbar-right-button {
@@ -198,6 +219,7 @@
     position: relative;
     overflow: hidden;
     margin-top: -10px;
+    
 }
 
 .button.small {
@@ -222,6 +244,7 @@
     transition: border-color .2s, color .2s, background-color .2s;
     position: relative;
     overflow: hidden;
+    white-space: nowrap;   
 }
 
 .button:hover {
@@ -280,12 +303,23 @@
 
 .hero-grid-right {
     flex-direction: column;
-    justify-content: flex-start;
-    padding: 4rem 3rem 3rem 1rem; /*adjust position of Intro*/
+    justify-content: center;
+    padding: 4rem 4rem 4rem 4rem; /*adjust position of Intro*/
     display: flex;
 }
 
 .bigcontainer{
+    width: 100%;
+    max-width: 125rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*outline: 2px solid rgb(93, 51, 104); border outline for building*/
+}
+
+.headercontainer{
+    padding-top: 1rem;    /* Top padding */
+    padding-right: 2rem;  /* Right padding *//* Bottom padding */
+    padding-left: 2rem; 
     width: 100%;
     max-width: 125rem;
     margin-left: auto;
@@ -389,10 +423,12 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif!important;
     background-color: #FFFFFF;
     margin: 0;
     padding: 0;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 html, body {
@@ -414,55 +450,14 @@ header h1 {
     font-size: 30px; /* Adjust size as needed */
 }
 
-/*
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start; /* Align items to the top of the container 
-    max-width: 1200px; /* Adjust as needed 
-    margin: 0 auto;
-    padding: 20px;
-}
-*/
-
-.left-column {
-    flex: 1;
-    display: flex;
-    flex-direction: column; /*Make items fall down*/
-    align-items: center; 
-    padding-right: 50px; /* Space between image and text */
-}
-
 
 .profile-img {
-    width: 600px; /* Adjust size as needed */
-    height: 600px; /* Adjust size as needed */
-    object-fit: cover; /* Ensures the image covers the container without distortion */
-    border-radius: 8px;
+    max-width: 50%; /* Makes the image scale down with its container */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes inline spacing */
+    margin: 0 auto; /* Centers the image horizontally */
 }
 
-
-.links {
-    margin-top: 20px;
-    text-align: center; /* Center the links */
-    display: flex; /* Make links display in a row */
-    gap: 20px;
-}
-
-.link {
-    display: block;
-    color: #163E93; /* Link color, adjust as needed */
-    text-decoration: none;
-    margin: 5px 0; /* Space between links */
-}
-
-.link:hover {
-    text-decoration: underline;
-}
-.right-column {
-    flex: 2; /* Adjust this value to control the width of the right column */
-    padding-left: 50px; /* Space between image and text */
-}
 
 nav ul {
     list-style-type: none;
@@ -487,13 +482,14 @@ main {
 
 .footer {
     z-index: 0;
+    
 }
 
 .footer-bottom {
     text-align: center;
     justify-content: space-between;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
     display: flex;
@@ -514,5 +510,52 @@ main {
     align-items: flex-start;
     padding-left: 0;
     list-style-type: none;
+    display: flex;
+}
+
+body::after {
+    content: "";
+    display: block;
+    height: 1rem; /* Adds extra space after the main content for the background to be visible */
+}
+
+.project-card {
+    display: flex!important; /* Use flexbox for the card */
+    flex-direction: column!important; /* Stack children vertically */
+    height: 100%!important; /* Make cards fill the height of the column */
+  }
+
+.card-body {
+    flex: 1; /* This allows the card body to expand */
+    display: flex; /* Make sure the card uses flexbox */
+    flex-direction: column; /* Stack the image and body vertically */
+    height: 100%; /* Ensures the card fills the column */
+  }
+
+.card a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the text color from the parent, making it look like normal text */
+  }
+  
+  .card-title {
+    color: #000; /* Set the title color to black or any color you prefer */
+  }
+  
+  .card-text {
+    color: #555; /* Set the description color to a grayish tone or any color you prefer */
+  }
+
+  .hero h6 {
+    margin-bottom: .1rem; /* Decrease space below the small title (default was 10px) */
+  }
+  
+  .hero-text {
+    text-align: left; /* Align text to the left */
+  }
+
+  .category-inner-grid{
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    flex-direction: row;
     display: flex;
 }

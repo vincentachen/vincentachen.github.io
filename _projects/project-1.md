@@ -1,13 +1,15 @@
 ---
 layout: project
-title: "Global Companion Diagnostic Guideline Mapping and Strategy"
-industry: "Pharma & Biotech"
-image: "/assets/images/project-1.png"
-summary: "A large pharma company wanted to understand the requirements to ensure that their novel CDx was included in diagnostic guidelines globally."
+title: "Personal Website"
+category: "Web Development"
+image: "/assets/images/project1.png"
+summary: "I learned CSS, HTML, and Javascript to create this personal website to display projects."
 capabilities:
-  - "Biomarker and Diagnostics Strategy"
-  - "Go-to-Market Strategy"
-permalink: /projects/global-companion-diagnostic-guideline-mapping
+  - "CSS"
+  - "HTML"
+  - "Javascript"  
+  - "Figma: Web Design and Planning"
+permalink: /projects/personal-website-details
 ---
 
 ## About the Project

@@ -13,8 +13,8 @@ title: "Vincent A. Chen"
                         <img src="/assets/images/headshotcircle.png" alt="Vincent Alexander Chen" class="profile-img">
                     </div>
                     <div class="hero-grid-right">
-                        <h1>Hi, I'm Vincent!</h1>
-                        <h2>UC Berkeley Grad</h2>
+                        <h1 class="display-4">Hi, I'm Vincent!</h1>
+                        <h2 >UC Berkeley Grad</h2>
                         <p>B.A. Integrated Biology and B.A. Economics</p>
                         <div class="social-links">
                             <a href="https://www.linkedin.com/in/vincentchenberkeley" target="_blank" class="icon-link">
@@ -70,7 +70,7 @@ title: "Vincent A. Chen"
         <div class="padding-top padding-medium">
             <div class="bigcontainer">
                 <div class="padding-bottom padding-large">
-                    <div class="margin-bottom margin-large">
+                    <div class="margin-bottom margin-medium">
                         <div class="margin-bottom margin-small">
                             <h6>MY WORK</h6>
                         </div> 
@@ -87,25 +87,28 @@ title: "Vincent A. Chen"
                         </div> 
                     </div> 
                     <div class="selected-projects-wrapper">
-                        <div class="project-list grid three">
-                            <div class="project-item">
-                                <a href="/projects" class="card-stretch w-inline-block"> </a>
+                        <div class="row g-4">
+                            {% assign featured_projects = site.projects | where: "tags", "featured" %}
+                            {% for project in featured_projects limit: 3 %}
+                            <div class="col-md-4">
+                                <div class="card project-card">
+                                <a href="{{ project.url }}">
+                                    <img class="card-img-top" src="{{ project.image }}" alt="Project {{ project.title }} Image">
+                                    <div class="card-body">
+                                    <h5 class="card-title">{{ project.title }}</h5>
+                                    <p class="card-text">{{ project.summary }}</p>
+                                    </div>
+                                </a>
+                                </div>
                             </div>
-                            <div class="project-item">
-                                <a href="/projects" class="card-stretch w-inline-block"> </a>
-                            </div>
-                            <div class="project-item">
-                                <a href="/projects" class="card-stretch w-inline-block"> </a>
-                            </div>
-                        </div>
+                            {% endfor %}
+                        </div> <!-- End Row -->
                     </div>    
                 </div> 
             </div> 
         </div> 
     </div> 
 </section> 
-
-
 
 
 
