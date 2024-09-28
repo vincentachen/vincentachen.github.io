@@ -24,11 +24,11 @@ permalink: /contactme/
       <div class="line mb-4"></div>
 
       <div class="contact-options">
-        <a href="mailto:your-email@example.com" class="btn btn-primary contact-button" role="button">
-          <i class="fas fa-envelope"></i> Email Me
+        <a href="mailto:vinnychen@berkeley.edu" class="btn btn-primary contact-button" role="button" target="_blank">
+          <i class="fas fa-envelope"></i> Email vinnychen@berkeley.edu
         </a>
         <br>
-        <a href="https://www.linkedin.com/in/your-profile" class="btn btn-primary contact-button" role="button">
+        <a href="https://www.linkedin.com/in/vincentchenberkeley" class="btn btn-primary contact-button" role="button" target="_blank">
           <i class="fab fa-linkedin"></i> Connect on LinkedIn
         </a>
       </div>

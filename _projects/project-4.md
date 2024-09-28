@@ -12,6 +12,11 @@ capabilities:
 tags:
   - featured
 permalink: /projects/global-companion-diagnostic-guideline-mapping
+objectives:
+  - "Analyze the returns of the S&P 500 Health Care Sector Index over a 16-year period."
+outcomes:
+  - "Successfully coded and generated CDF and PDF graphs to visualize the index returns."
+---
 ---
 
 ## About the Project

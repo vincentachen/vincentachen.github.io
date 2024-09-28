@@ -69,13 +69,16 @@ layout: default
                           <div class="aboutme-inner-grid">
                               <div class="aboutme-inner-item">
                                   <h5>Objective</h5>
-                                  <p>I am passionate about healthcare technology, health economics, and financial analysis. My goal is to apply my skills in data analysis and project management to help companies optimize their healthcare solutions.</p>
+                                  {% for objective in page.objectives %}
+                                  <p>{{ objective }}</p>
+                                  {% endfor %}
                               </div>
                               <div class="line"></div>
                               <div class="aboutme-inner-item">
                                   <h5>Outcome</h5>
-                                  <p>I am passionate about healthcare technology, health economics, and financial analysis. My goal is to apply my skills in data analysis and project management to help companies optimize their healthcare solutions.</p>
-                              </div>
+                                  {% for outcome in page.outcomes %}
+                                  <p>{{ outcome }}</p>
+                                  {% endfor %}                              </div>
                               <div class="line"></div>                                                     
                           </div>
                       </div>

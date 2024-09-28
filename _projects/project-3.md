@@ -11,6 +11,11 @@ capabilities:
 tags:
   - featured
 permalink: /projects/epidemiology
+objectives:
+  "Analyze the returns of the S&P 500 Health Care Sector Index over a 16-year period."
+outcomes:
+  "Currently in progress..."
+---
 ---
 
 ## About the Project
