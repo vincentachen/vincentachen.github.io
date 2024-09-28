@@ -14,7 +14,7 @@ title: "Vincent A. Chen"
                     </div>
                     <div class="hero-grid-right">
                         <h1 class="display-4">Hi, I'm Vincent!</h1>
-                        <h2 >UC Berkeley Grad</h2>
+                        <h2 >Aspiring Analyst</h2>
                         <p>B.A. Integrated Biology and B.A. Economics</p>
                         <div class="social-links">
                             <a href="https://www.linkedin.com/in/vincentchenberkeley" target="_blank" class="icon-link">
@@ -44,18 +44,22 @@ title: "Vincent A. Chen"
                         <div class="aboutme-inner-grid">
                             <div class="aboutme-inner-item">
                                 <h5>EDUCATION</h5>
-                                <p>I am passionate about healthcare technology, health economics, and financial analysis. My goal is to apply my skills in data analysis and project management to help companies optimize their healthcare solutions.</p>
+                                <p>I graduated from UC Berkeley, where I studied Integrated Biology and Economics, bridging my passion for healthcare with finance. With coursework in health economics, financial economics, and econometrics, I’m focused on financial and data analysis in biotech. I’m preparing for the CFA exam in May to deepen my knowledge in capital markets and foundational finacial concepts.</p>
                             </div>
                             <div class="line"></div>
                             <div class="aboutme-inner-item">
                                 <h5>EXPERIENCE</h5>
-                                <p>I am passionate about healthcare technology, health economics, and financial analysis. My goal is to apply my skills in data analysis and project management to help companies optimize their healthcare solutions.</p>
+                                <p>I had the opportunity to conduct market research at UCSF’s Catalyst Program, where I worked with a team to develop a Target Product Profile (TPP) and present it to industry experts. Additionally, I applied data analysis skills in R and Python during my laboratory research, helping to drive insights from complex datasets.</p>
                             </div>
                             <div class="line"></div>
                             <div class="aboutme-inner-item">
                                 <h5>INTERESTS</h5>
-                                <p>I am passionate about healthcare technology, health economics, and financial analysis. My goal is to apply my skills in data analysis and project management to help companies optimize their healthcare solutions.</p>
+                                <p>I like to stay active through swimming and running. I also enjoy learning new things, cooking, and spending time gardening.</p>
                             </div>
+                            <div class="aboutme-inner-item">
+                                <p></p>
+                                <p><strong>Favorite Books:</strong> <em>Behave</em> by Robert Sapolsky, <em>The Omnivore's Dilemma</em> by Michael Pollan, and <em>Animal Spirits</em> by George Akerlof and Robert Shiller.</p>
+                            </div>                           
                             <div class="line"></div>                                                        
                         </div>
                     </div>
