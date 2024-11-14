@@ -22,7 +22,8 @@ permalink: /projects/
       <p class="text-left mb-2">A collection of my work across various fields, including financial modeling, machine learning, and more.</p>
       <div class="line mb-4"></div>
       <div class="row g-4">
-        {% for project in site.projects %}
+        {% assign finished_projects = site.projects | where: "tags", "finished" %}
+        {% for project in finished_projects %}
           <div class="col-md-4">
             <div class="card project-card">
               <a href="{{ project.url }}">

@@ -77,8 +77,10 @@
 <head>
   <title>Medication Adherence Challenge Investigation</title>
   <link rel="stylesheet" href="/assets/css/style.css">
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Your Custom CSS -->
+<link rel="stylesheet" href="/assets/css/style.css">
 
   <!-- Optional: Bootstrap JavaScript (for components that require JavaScript) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -88,7 +90,7 @@
 </head>
 <body>
   <header>
-    <section class="hero">
+    <section class="hero custom-hero-height">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
@@ -97,15 +99,54 @@
               <h1 class="display-6">Medication Adherence Challenge Investigation</h1>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="/assets/images/project4.jpg" alt="Medication Adherence Challenge Investigation" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </section>
     
-  </header>
-
+          
+            <div class="col-md-6">
+              <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  
+                    <div class="carousel-item active">
+                      <div class="carousel-image-wrapper">
+                        <img src="/assets/images/medication_slide1.png" class="d-block w-100" alt="Project image 1">
+                      </div>
+                    </div>
+                  
+                    <div class="carousel-item ">
+                      <div class="carousel-image-wrapper">
+                        <img src="/assets/images/medication_slide2.png" class="d-block w-100" alt="Project image 2">
+                      </div>
+                    </div>
+                  
+                    <div class="carousel-item ">
+                      <div class="carousel-image-wrapper">
+                        <img src="/assets/images/medication_slide3.png" class="d-block w-100" alt="Project image 3">
+                      </div>
+                    </div>
+                  
+                    <div class="carousel-item ">
+                      <div class="carousel-image-wrapper">
+                        <img src="/assets/images/medication_slide4.png" class="d-block w-100" alt="Project image 4">
+                      </div>
+                    </div>
+                  
+                </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          
+    
+        </div> <!-- Close row -->
+      </div> <!-- Close container -->
+    </section>
+    </header>
   <main>
     <section class="project-description py-5">
       <div class="container">
@@ -146,14 +187,14 @@
                               <div class="aboutme-inner-item">
                                   <h5>Objective</h5>
                                   
-                                  <p>Analyze the returns of the S&P 500 Health Care Sector Index over a 16-year period.</p>
+                                  <p>Identify the main factors influencing medication adherence. Determine the roles of stakeholders—pharmacists, physicians, and legislators—in improving adherence. Explore the potential and limitations of regulatory solutions and ethical implications of new technologies in adherence tracking.</p>
                                   
                               </div>
                               <div class="line"></div>
                               <div class="aboutme-inner-item">
                                   <h5>Outcome</h5>
                                   
-                                  <p>Successfully coded and generated CDF and PDF graphs to visualize the index returns.</p>
+                                  <p>Stakeholder Collaboration: Effective medication adherence enhancing interventions (MAEIs) often result from collaborative efforts between pharmacists, physicians, and patients, rather than from legislation alone. European MAEI Reimbursement: In Europe, a limited number of MAEIs, such as multi-dose drug dispensing and medication reviews, receive reimbursement, showing that such interventions can be recognized and supported financially. Regulatory Limitations: Current global legislation on medication adherence is underdeveloped, and uniform metrics are needed before effective regulatory measures can be implemented. Ethical Considerations in Adherence Tech: Tracking patients to monitor adherence presents significant privacy concerns, revealing a tension between public health interests and individual autonomy. In light of these findings, our hypothesis remains that direct healthcare provider efforts are more impactful than legislative approaches, although the ethical debate surrounding new adherence technologies remains unresolved. Future steps include further exploration of alternative solutions that emphasize multi-stakeholder collaboration and patient-centered education.</p>
                                                                 </div>
                               <div class="line"></div>                                                     
                           </div>

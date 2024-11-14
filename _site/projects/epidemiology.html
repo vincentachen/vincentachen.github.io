@@ -77,8 +77,10 @@
 <head>
   <title>Epidemiology Machine Learning Project</title>
   <link rel="stylesheet" href="/assets/css/style.css">
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- Your Custom CSS -->
+<link rel="stylesheet" href="/assets/css/style.css">
 
   <!-- Optional: Bootstrap JavaScript (for components that require JavaScript) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -88,7 +90,7 @@
 </head>
 <body>
   <header>
-    <section class="hero">
+    <section class="hero custom-hero-height">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
@@ -97,15 +99,18 @@
               <h1 class="display-6">Epidemiology Machine Learning Project</h1>
             </div>
           </div>
-          <div class="col-md-6">
-            <img src="/assets/images/project3.png" alt="Epidemiology Machine Learning Project" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </section>
     
-  </header>
-
+          
+            <!-- Single image fallback if no multiple images are available -->
+            <div class="col-md-6">
+              <img src="/assets/images/project3.png" alt="Epidemiology Machine Learning Project" class="img-fluid" />
+            </div>
+          
+    
+        </div> <!-- Close row -->
+      </div> <!-- Close container -->
+    </section>
+    </header>
   <main>
     <section class="project-description py-5">
       <div class="container">
